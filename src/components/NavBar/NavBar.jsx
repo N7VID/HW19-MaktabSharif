@@ -3,10 +3,13 @@ import NavItem from "../NavItem/NavItem";
 export default function NavBar() {
   return (
     <ul className="flex items-center gap-20">
-      <NavItem>Home</NavItem>
-      <NavItem>Boot Camps</NavItem>
-      <NavItem>About Us</NavItem>
-      <NavItem>Contact Us</NavItem>
+      <NavItem path={"/"}>Home</NavItem>
+
+      <NavItem path={"/boot-camps"}>Boot Camps</NavItem>
+
+      <NavItem path={"/about"}>About Us</NavItem>
+
+      <NavItem path={"/contact"}>Contact Us</NavItem>
     </ul>
   );
 }
