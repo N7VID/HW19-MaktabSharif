@@ -2,7 +2,7 @@ import Button from "../../components/Button/Button";
 
 export default function HomePage() {
   return (
-    <div className="flex justify-between pt-[100px]">
+    <div className="flex justify-between pt-[100px] bg-mainBg">
       <div className="flex-grow flex flex-col justify-center items-center">
         <div className="flex flex-col gap-10 cursor-default">
           <h2 className="text-4xl font-[900] text-[#333] text-center">

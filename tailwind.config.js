@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         popins: ["Popins"],
       },
+      colors: {
+        mainBg: "#f8f8f8",
+      },
     },
   },
   plugins: [],
