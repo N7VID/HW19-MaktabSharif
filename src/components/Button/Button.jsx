@@ -2,7 +2,7 @@ export default function Button({ variant, children, ...props }) {
   let variantClasses = "";
   switch (variant) {
     case "primary":
-      variantClasses = "text-white btn-primary py-3 px-14";
+      variantClasses = "text-white btn-primary py-3 px-16";
       break;
     case "secondary":
       variantClasses = "border-[#ffab0b] border-2 text-[#ffab0b]";

@@ -3,7 +3,7 @@ import NavBar from "../NavBar/NavBar";
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center max-w-[1550px] px-10 mx-auto py-3 shadow-md shadow-[#b6b6b6]">
+    <div className="flex justify-between items-center max-w-[1550px] px-10 mx-auto py-3 shadow-md shadow-[#777777] fixed top-0 right-0 left-0 bg-white">
       <img src="/MAKTAB2.png" alt="Maktab Sharif Icon" className="w-16" />
       <NavBar />
       <Button variant="primary">Dashboard</Button>
