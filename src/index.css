@@ -5,3 +5,13 @@
 .btn-primary {
   background: linear-gradient(270deg, #f97111, #ffab0b);
 }
+
+@layer base {
+  @font-face {
+    font-family: "Popins";
+    /* font-style: normal;
+    font-weight: 400;
+    font-display: swap; */
+    src: url(/public/font/Poppins-Regular.ttf);
+  }
+}

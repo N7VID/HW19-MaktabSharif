@@ -3,7 +3,7 @@ import Header from "../components/Header/Header";
 
 export default function MainLayout() {
   return (
-    <div>
+    <div className="font-popins">
       <Header />
       <Outlet />
     </div>
