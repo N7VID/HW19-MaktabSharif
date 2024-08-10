@@ -1,0 +1,9 @@
+{
+    "BootCamps":
+    [
+        {
+            "id":1,
+            "name":"react"
+        }
+    ]
+}
