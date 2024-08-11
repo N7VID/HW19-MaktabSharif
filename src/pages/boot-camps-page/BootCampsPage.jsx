@@ -4,7 +4,11 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 import { A11y, Autoplay, Navigation, Pagination } from "swiper/modules";
+import { useGetBootCamps } from "../../hooks/useGetBootCamps";
 export default function BootCampsPage() {
+  const { data, isError, Error, isLoading } = useGetBootCamps();
+  console.log(data);
+
   return (
     <div className="flex justify-center items-center min-h-screen px-40">
       <Swiper
