@@ -3,7 +3,42 @@
     [
         {
             "id":1,
-            "name":"react"
+            "name":"Android",
+            "imgSrc":"",
+            "description":"Despite all these Android applications that are needed more and more day by day, the whole world still needs professional developers in this field!",
+            "duration":"28 Weeks | 360 Hours",
+            "syllabus": [
+                {
+                    "Android":
+                    ["Activity","Services","Broadcast Receiver","Content Provider","Fragment","Recycler View","LiveData","DataBinding","Style & Theme","Web View","Looper","Push Notification","Event Bus"]
+                },
+                {
+                    "Kotlin":
+                    ["OOP","Collections","Exception Handling","I/O","Lambda Expression"]
+                },
+                {
+                    "Database":
+                    ["SQLite","Realm","ORM (Green DAO / Room)"]
+                },
+                {
+                    "Architecture":
+                    ["MVC","MVVM"]
+                },  
+                {
+                    "Architecture":
+                    ["REST API","Retrofit, Volly"]
+                },
+                {
+                    "Concepts / Tools":
+                    ["Git","Design Patterns"]
+                },
+                {
+                    "Side Skills":
+                    ["Typing","Searching"]
+                }                                                             
+            ]
+
+
         }
     ]
 }
