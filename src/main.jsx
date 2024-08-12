@@ -1,3 +1,4 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -7,7 +8,6 @@ import AboutPage from "./pages/about-page/aboutPage.jsx";
 import BootCampsPage from "./pages/boot-camps-page/BootCampsPage.jsx";
 import ContactPage from "./pages/contact-page/ContactPage.jsx";
 import HomePage from "./pages/home-page/HomePage.jsx";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import SinglePage from "./pages/single-page/SinglePage.jsx";
 
 const router = createBrowserRouter([

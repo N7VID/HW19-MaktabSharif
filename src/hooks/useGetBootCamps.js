@@ -1,9 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
 import { getBootCamps } from "../api/getBootCamps.api";
 
-export const useGetBootCamps = () => {
+export const useGetBootCamps = (params) => {
   return useQuery({
     queryKey: ["BootCamps"],
-    queryFn: getBootCamps,
+    queryFn: () => getBootCamps(params),
   });
 };
