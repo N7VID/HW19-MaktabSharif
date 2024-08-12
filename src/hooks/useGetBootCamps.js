@@ -1,9 +1,16 @@
 import { useQuery } from "@tanstack/react-query";
 import { getBootCamps } from "../api/getBootCamps.api";
+import { useSearchParams } from "react-router-dom";
 
-export const useGetBootCamps = (params) => {
+export const useGetBootCamps = () => {
+  const [searchParams] = useSearchParams();
+  const params = {
+    page: searchParams.get("page"),
+    limit: 3,
+  };
+
   return useQuery({
-    queryKey: ["BootCamps"],
+    queryKey: ["BootCamps", params],
     queryFn: () => getBootCamps(params),
   });
 };
