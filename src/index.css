@@ -42,3 +42,38 @@
   background-color: #000000 !important;
   opacity: 1 !important;
 }
+
+.MuiAccordionSummary-content {
+  color: #e99b09;
+  padding-block: 10px;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: 250ms !important;
+}
+.MuiSvgIcon-root {
+  color: #e99b09;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: 250ms !important;
+}
+.MuiSvgIcon-root:hover {
+  color: #f97111;
+}
+.MuiPaper-root {
+  margin-block: 20px;
+}
+.css-1086bdv-MuiPaper-root-MuiAccordion-root {
+  box-shadow: rgba(99, 99, 99, 0.484) 0px 2px 8px 0px !important;
+}
+.css-1086bdv-MuiPaper-root-MuiAccordion-root {
+  display: block !important;
+  border-radius: 12px !important;
+}
+.css-1086bdv-MuiPaper-root-MuiAccordion-root::before {
+  background-color: white !important;
+}
+.MuiAccordionSummary-content:hover {
+  color: #f97111;
+}
