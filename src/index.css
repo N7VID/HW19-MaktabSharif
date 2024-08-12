@@ -15,3 +15,30 @@
     src: url(/public/font/Poppins-Regular.ttf);
   }
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 70px !important;
+  height: 70px !important;
+  background-color: #eeeeee50;
+  border-radius: 50%;
+  color: rgb(0, 0, 0) !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #c9c9c96e;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #333 !important;
+  opacity: 0.5 !important;
+  border-radius: 50% !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000000 !important;
+  opacity: 1 !important;
+}

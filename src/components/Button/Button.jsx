@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Button({ variant, children, ...props }) {
   let variantClasses = "";
   switch (variant) {
@@ -6,6 +7,9 @@ export default function Button({ variant, children, ...props }) {
       break;
     case "secondary":
       variantClasses = "border-[#ffab0b] border-2 text-[#ffab0b]";
+      break;
+    case "card":
+      variantClasses = "bg-[#7c70b2] px-14 text-white py-2 text-base";
       break;
 
     default:
