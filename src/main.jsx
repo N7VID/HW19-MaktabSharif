@@ -8,6 +8,7 @@ import BootCampsPage from "./pages/boot-camps-page/BootCampsPage.jsx";
 import ContactPage from "./pages/contact-page/ContactPage.jsx";
 import HomePage from "./pages/home-page/HomePage.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import SinglePage from "./pages/single-page/SinglePage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/boot-camps",
         element: <BootCampsPage />,
+      },
+      {
+        path: "/boot-camps/:id",
+        element: <SinglePage />,
       },
     ],
   },

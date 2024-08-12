@@ -8,7 +8,6 @@ import { useGetBootCamps } from "../../hooks/useGetBootCamps";
 import Card from "../../components/Card/Card";
 export default function BootCampsPage() {
   const { data, isError, Error, isLoading } = useGetBootCamps();
-  console.log(data);
 
   return (
     <div className="flex justify-center items-center min-h-screen px-[230px] bg-mainBg">

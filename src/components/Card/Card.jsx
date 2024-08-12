@@ -1,7 +1,12 @@
 /* eslint-disable react/prop-types */
+import { useNavigate } from "react-router-dom";
 import Button from "../Button/Button";
 
 export default function Card({ data }) {
+  const navigate = useNavigate();
+  const handleButtonClick = () => {
+    navigate(`${data.id}`);
+  };
   return (
     <div
       className="bg-white shadow-lg rounded-lg flex justify-center flex-col items-center
@@ -15,7 +20,9 @@ export default function Card({ data }) {
       <span className="p-2 border-y-2 border-gray-400">
         {data.duration.Weeks} Weeks | {data.duration.Hours} Hours
       </span>
-      <Button variant={"card"}>More Details</Button>
+      <Button variant={"card"} onClick={handleButtonClick}>
+        More Details
+      </Button>
     </div>
   );
 }

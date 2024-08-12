@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function Button({ variant, children, ...props }) {
+export default function Button({ variant, children, onClick, ...props }) {
   let variantClasses = "";
   switch (variant) {
     case "primary":
@@ -18,6 +18,7 @@ export default function Button({ variant, children, ...props }) {
   }
   return (
     <button
+      onClick={onClick}
       className={`py-3 px-6 rounded-xl text-xl ${variantClasses}`}
       {...props}
     >
