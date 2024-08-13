@@ -168,8 +168,8 @@
             "imgSrc":"https://directus.maktabsharif.com/assets/8d954f15-b3aa-4e5b-8ede-2f9d6e53a2be",
             "imgHero":"https://directus.maktabsharif.com/assets/e9a6575d-bfe7-4975-bbf4-314fb82f5a7e",
             "description":"This bootcamp is the best place to start Front-end programming. With React, the work is done!",
-            "Weeks":28,
-            "Hours":400,
+            "Weeks":34,
+            "Hours":500,
             "syllabus": [
                 {
                     "ReactJS":[
@@ -221,8 +221,8 @@
             "imgSrc":"https://directus.maktabsharif.com/assets/abb45b05-4987-4b33-a9ca-638eb097c811",
             "imgHero":"https://directus.maktabsharif.com/assets/1f3b6501-923d-49e2-b61f-689ffcb3b940",
             "description":"Node.js is one of the best choices for investing in skills. If you are looking to learn a future skill, you are only one bootcamp away from achieving it!",
-            "Weeks":28,
-            "Hours":400,
+            "Weeks":32,
+            "Hours":450,
             "syllabus": [
                 {
                     "NodejJS":[
@@ -329,8 +329,8 @@
             "imgSrc":"https://directus.maktabsharif.com/assets/02953f93-6711-4c78-9b7f-bfadca50ea49",
             "imgHero":"https://directus.maktabsharif.com/assets/997322c1-339c-434f-8364-0d3f72575220",
             "description":"The best choice for a suitable career path and investment in a language whose job market is hot in every season. #C always has its fans!",
-            "Weeks":28,
-            "Hours":400,
+            "Weeks":26,
+            "Hours":380,
             "syllabus": [
                 {
                     "C#":[
