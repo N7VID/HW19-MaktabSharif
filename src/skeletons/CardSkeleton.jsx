@@ -13,7 +13,7 @@ py-4 px-8 w-64 h-[450px] gap-4 cursor-default"
         <p className="justify-center w-28 h-4 text-center bg-slate-300 animate-pulse rounded-lg"></p>
         <p className="justify-center w-16 h-4 text-center bg-slate-300 animate-pulse rounded-lg"></p>
       </div>
-      <div className="h-14 w-44 rounded-xl text-xl bg-slate-300 animate-pulse"></div>
+      <div className="h-12 mt-2 w-[168px] rounded-xl text-xl bg-slate-300 animate-pulse"></div>
     </div>
   );
 }
