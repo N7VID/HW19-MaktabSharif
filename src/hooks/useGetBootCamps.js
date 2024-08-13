@@ -8,6 +8,8 @@ export const useGetBootCamps = () => {
     page: searchParams.get("page"),
     limit: 3,
     search: searchParams.get("name_like"),
+    sort: searchParams.get("_sort"),
+    order: searchParams.get("_order"),
   };
 
   return useQuery({

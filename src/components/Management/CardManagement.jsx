@@ -4,7 +4,6 @@ export default function CardManagement() {
   const [searchParams, setSearchParams] = useSearchParams();
 
   function handleSearchInput(e) {
-    console.log(e.target.value);
     if (e.target.value) {
       setSearchParams((prev) => {
         prev.set("name_like", e.target.value);
@@ -17,6 +16,23 @@ export default function CardManagement() {
       });
     }
   }
+
+  function handleSelectOption(e) {
+    if (e.target.value) {
+      setSearchParams((prev) => {
+        prev.set("_sort", "Hours");
+        prev.set("_order", e.target.value);
+        return prev;
+      });
+    } else {
+      setSearchParams((prev) => {
+        prev.delete("_sort");
+        prev.delete("_order");
+        return prev;
+      });
+    }
+  }
+
   return (
     <div className="flex flex-col cursor-default">
       <h1 className="text-3xl font-semibold pb-8">{`<Boot Camps/>`}</h1>
@@ -38,10 +54,11 @@ export default function CardManagement() {
           name="Duration"
           id="Duration"
           className="py-2 border-2 border-black rounded-lg px-2"
+          onChange={handleSelectOption}
         >
-          <option value="All">All Courses</option>
-          <option value="Shortest">Shortest Courses</option>
-          <option value="Longest">Longest Courses</option>
+          <option value="">All Courses</option>
+          <option value="asc">Shortest Courses</option>
+          <option value="desc">Longest Courses</option>
         </select>
 
         <div className="flex justify-center items-center gap-3 bg-white py-2 px-2 border-2 border-black rounded-lg">

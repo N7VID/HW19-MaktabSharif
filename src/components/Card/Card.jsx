@@ -18,7 +18,7 @@ export default function Card({ data }) {
         {data.description}
       </p>
       <span className="p-2 border-y-2 border-gray-400">
-        {data.duration.Weeks} Weeks | {data.duration.Hours} Hours
+        {data.Weeks} Weeks | {data.Hours} Hours
       </span>
       <Button variant={"card"} onClick={handleButtonClick}>
         More Details
