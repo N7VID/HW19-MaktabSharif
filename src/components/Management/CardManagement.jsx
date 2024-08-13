@@ -33,6 +33,20 @@ export default function CardManagement() {
     }
   }
 
+  function handleCheckBox(e) {
+    if (e.target.checked) {
+      setSearchParams((prev) => {
+        prev.append("category", e.target.value);
+        return prev;
+      });
+    } else {
+      setSearchParams((prev) => {
+        prev.delete("category", e.target.value);
+        return prev;
+      });
+    }
+  }
+
   return (
     <div className="flex flex-col cursor-default">
       <h1 className="text-3xl font-semibold pb-8">{`<Boot Camps/>`}</h1>
@@ -62,27 +76,45 @@ export default function CardManagement() {
         </select>
 
         <div className="flex justify-center items-center gap-3 bg-white py-2 px-2 border-2 border-black rounded-lg">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-[6px]">
             <label htmlFor="Web">Web</label>
             <input
               type="checkbox"
               id="Web"
               className="accent-[#ffab0b]"
               value={"Web"}
-              onChange={(e) => console.log(e.target.checked)}
+              onChange={handleCheckBox}
             />
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-[6px]">
             <label htmlFor="Mobile">Mobile</label>
-            <input type="checkbox" id="Mobile" className="accent-[#ffab0b]" />
+            <input
+              type="checkbox"
+              id="Mobile"
+              className="accent-[#ffab0b]"
+              value={"Mobile"}
+              onChange={handleCheckBox}
+            />
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-[6px]">
             <label htmlFor="Desktop">Desktop</label>
-            <input type="checkbox" id="Desktop" className="accent-[#ffab0b]" />
+            <input
+              type="checkbox"
+              id="Desktop"
+              className="accent-[#ffab0b]"
+              value={"Desktop"}
+              onChange={handleCheckBox}
+            />
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-[6px]">
             <label htmlFor="Others">Others</label>
-            <input type="checkbox" id="Others" className="accent-[#ffab0b]" />
+            <input
+              type="checkbox"
+              id="Others"
+              className="accent-[#ffab0b]"
+              value={"Others"}
+              onChange={handleCheckBox}
+            />
           </div>
         </div>
       </div>
