@@ -15,7 +15,9 @@ export default function BootCampsPage() {
       <div className="flex flex-col justify-center items-center gap-10">
         <div className="flex justify-center items-center pt-[100px] gap-4 min-w-[800px]">
           {isLoading
-            ? Array.from(Array(3)).map((item) => <CardSkeleton key={item} />)
+            ? Array.from(Array(3)).map((item, index) => (
+                <CardSkeleton key={index} />
+              ))
             : data?.data?.map((item) => <Card data={item} key={item.id} />)}
         </div>
         <Pagination totalItems={totalItems} itemsPerPage={itemsPerPage} />
