@@ -73,7 +73,7 @@ export default function Pagination({ totalItems, itemsPerPage }) {
             }}
             className={`desktop:w-8 desktop:h-8 tablet:w-6 tablet:h-6 w-5 h-5 rounded-full text-center flex justify-center items-center ${
               currentPage === page && page !== "..."
-                ? "btn-primary text-white"
+                ? "bg-[#7c70b2] text-white"
                 : ""
             }`}
           >
