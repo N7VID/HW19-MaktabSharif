@@ -7,6 +7,7 @@ export const useGetBootCamps = () => {
   const params = {
     page: searchParams.get("page"),
     limit: 3,
+    search: searchParams.get("name_like"),
   };
 
   return useQuery({

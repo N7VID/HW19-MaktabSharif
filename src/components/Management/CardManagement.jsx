@@ -1,4 +1,22 @@
+import { useSearchParams } from "react-router-dom";
+
 export default function CardManagement() {
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  function handleSearchInput(e) {
+    console.log(e.target.value);
+    if (e.target.value) {
+      setSearchParams((prev) => {
+        prev.set("name_like", e.target.value);
+        return prev;
+      });
+    } else {
+      setSearchParams((prev) => {
+        prev.delete("name_like");
+        return prev;
+      });
+    }
+  }
   return (
     <div className="flex flex-col cursor-default">
       <h1 className="text-3xl font-semibold pb-8">{`<Boot Camps/>`}</h1>
@@ -13,7 +31,7 @@ export default function CardManagement() {
             type="text"
             placeholder="Search"
             className="py-2 pl-2 rounded-lg border-2 border-black w-full"
-            // onChange={handleSearchInput}
+            onChange={handleSearchInput}
           />
         </div>
         <select
