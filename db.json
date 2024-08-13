@@ -4,41 +4,500 @@
         {
             "id":1,
             "name":"Android",
-            "imgSrc":"",
+            "category":"Mobile",
+            "imgSrc":"https://directus.maktabsharif.com/assets/fdb31f70-81cd-419f-b533-a4408bfe93da",
+            "imgHero":"https://directus.maktabsharif.com/assets/723d5ca7-285c-4788-824a-145e92dceb1c",
             "description":"Despite all these Android applications that are needed more and more day by day, the whole world still needs professional developers in this field!",
-            "duration":"28 Weeks | 360 Hours",
+            "Weeks":28,
+            "Hours":400,
             "syllabus": [
                 {
-                    "Android":
-                    ["Activity","Services","Broadcast Receiver","Content Provider","Fragment","Recycler View","LiveData","DataBinding","Style & Theme","Web View","Looper","Push Notification","Event Bus"]
-                },
-                {
-                    "Kotlin":
-                    ["OOP","Collections","Exception Handling","I/O","Lambda Expression"]
-                },
-                {
-                    "Database":
-                    ["SQLite","Realm","ORM (Green DAO / Room)"]
-                },
-                {
-                    "Architecture":
-                    ["MVC","MVVM"]
-                },  
-                {
-                    "Architecture":
-                    ["REST API","Retrofit, Volly"]
-                },
-                {
-                    "Concepts / Tools":
-                    ["Git","Design Patterns"]
-                },
-                {
-                    "Side Skills":
-                    ["Typing","Searching"]
+                    "Android":[
+                        "Activity",
+                        "Services",
+                        "Broadcast Receiver",
+                        "Content Provider",
+                        "Fragment",
+                        "Recycler View",
+                        "LiveData",
+                        "DataBinding",
+                        "Style & Theme",
+                        "Web View",
+                        "Looper",
+                        "Push Notification",
+                        "Event Bus"
+                    ],
+                    "Kotlin":[
+                        "OOP",
+                        "Collections",
+                        "Exception Handling",
+                        "I/O",
+                        "Lambda Expression"
+                    ],
+                    "Database":[
+                        "SQLite",
+                        "Realm",
+                        "ORM (Green DAO / Room)"
+                    ],
+                    "Architecture":[
+                        "MVC",
+                        "MVVM"
+                    ],
+                    "Network":[
+                        "REST API",
+                        "Retrofit, Volly"
+                    ],
+                    "Concepts / Tools":[
+                        "Git",
+                        "Design Patterns"
+                    ],
+                    "Side Skills":[
+                        "Typing",
+                        "Searching"
+                    ]
                 }                                                             
             ]
-
-
-        }
+        },
+        {
+            "id":2,
+            "name":"PHP",
+            "category":"Web",
+            "imgSrc":"https://directus.maktabsharif.com/assets/4908666b-ad2b-45e6-ac71-142c5cb3a06b",
+            "imgHero":"https://directus.maktabsharif.com/assets/506a5cc1-a6de-4754-931e-83f4cc328de3",
+            "description":"PHP programming is one of the most profitable! If you are looking to learn a future skill, you are only one bootcamp away from it!",
+            "Weeks":28,
+            "Hours":400,
+            "syllabus": [
+                {
+                    "PHP":[
+                        "Fundamentals",
+                        "Files & IO",
+                        "OOP",
+                        "Error Handling",
+                        "Data Validation",
+                        "Cookie/Session",
+                        "PDO",
+                        "View Layout",
+                        "Authentication"
+                    ],
+                    "Laravel":[
+                        "Template Engine",
+                        "Composer",
+                        "Routing",
+                        "Controller",
+                        "Eloquent"
+                    ],
+                    "Database":[
+                        "ERD",
+                        "MySQL"
+                    ],
+                    "Front Design":[
+                        "HTML/CSS/JS",
+                        "jQuery/Ajax",
+                        "TailwindCSS",
+                        "Bootstrap"
+                    ],
+                    "Concepts / Tools":[
+                        "Git",
+                        "MVC"
+                    ],
+                    "Side Skills":[
+                        "Typing",
+                        "Searching"
+                    ]
+                }                                                             
+            ]
+        },
+        {
+            "id":3,
+            "name":"Python",
+            "category":"Web",
+            "imgSrc":"https://directus.maktabsharif.com/assets/5f31f947-bb94-495a-8e35-e4ec6cff370d",
+            "imgHero":"https://directus.maktabsharif.com/assets/fced8e86-f3fd-48c9-b63f-d4b1c53356ac",
+            "description":"Python is a powerful and simple language to start learning that is used everywhere. Learn easily and code easily with Python!",
+            "Weeks":28,
+            "Hours":400,
+            "syllabus": [
+                {
+                    "Python":[
+                        "Basic and advanced Python topics",
+                        "Modules",
+                        "List functions",
+                        "Exception Handling",
+                        "Logging",
+                        "OOP"
+                    ],
+                    "django":[
+                        "MVC",
+                        "Form",
+                        "View",
+                        "Rest",
+                        "Template",
+                        "serializing"
+                    ],
+                    "Database":[
+                        "ERD",
+                        "SQL",
+                        "PostgresSQL"
+                    ],
+                    "Frontend":[
+                        "HTML/CSS/JS",
+                        "jQuery/Ajax",
+                        "TailwindCSS"
+                    ],
+                    "Network":[
+                        "HTTP Protocol",
+                        "TCP/IP",
+                        "Basic commands"
+                    ],                    
+                    "Concepts / Tools":[
+                        "Git",
+                        "Design Patterns"
+                    ],
+                    "Side Skills":[
+                        "Typing",
+                        "Searching"
+                    ]
+                }                                                             
+            ]
+        },        
+        {
+            "id":4,
+            "name":"ReactJS",
+            "category":"Web",
+            "imgSrc":"https://directus.maktabsharif.com/assets/8d954f15-b3aa-4e5b-8ede-2f9d6e53a2be",
+            "imgHero":"https://directus.maktabsharif.com/assets/e9a6575d-bfe7-4975-bbf4-314fb82f5a7e",
+            "description":"This bootcamp is the best place to start Front-end programming. With React, the work is done!",
+            "Weeks":28,
+            "Hours":400,
+            "syllabus": [
+                {
+                    "ReactJS":[
+                        "Components",
+                        "Routing",
+                        "JSX",
+                        "Axios/frisbee",
+                        "Redux",
+                        "Next.js Intro"
+                    ],
+                    "JavaScript":[
+                        "Fundamentals",
+                        "Functions",
+                        "OOP In JS",
+                        "DOM",
+                        "Events",
+                        "Forms",
+                        "Regular expressions",
+                        "ES6 Intro",
+                        "Promises",
+                        "Async/Await",
+                        "Collections"
+                    ],
+                    "UI Intro":[
+                        "PhotoShop",
+                        "Illustrator"
+                    ],
+                    "Front":[
+                        "HTML/CSS",
+                        "jQuery/Ajax",
+                        "TailwindCSS",
+                        "Bootstrap"
+                    ],                    
+                    "Concepts":[
+                        "Git",
+                        "Design Patterns"
+                    ],
+                    "Side Skills":[
+                        "Typing",
+                        "Searching"
+                    ]
+                }                                                             
+            ]
+        },        
+        {
+            "id":5,
+            "name":"NodeJS",
+            "category":"Web",
+            "imgSrc":"https://directus.maktabsharif.com/assets/abb45b05-4987-4b33-a9ca-638eb097c811",
+            "imgHero":"https://directus.maktabsharif.com/assets/1f3b6501-923d-49e2-b61f-689ffcb3b940",
+            "description":"Node.js is one of the best choices for investing in skills. If you are looking to learn a future skill, you are only one bootcamp away from achieving it!",
+            "Weeks":28,
+            "Hours":400,
+            "syllabus": [
+                {
+                    "NodejJS":[
+                        "Fundamentals",
+                        "Functions",
+                        "OOP in JS",
+                        "Error Handling",
+                        "DOM",
+                        "Events",
+                        "Forms",
+                        "Regular Expressions",
+                        "ES6 intro",
+                        "Promises",
+                        "Async/await",
+                        "Collections"
+                    ],
+                    "ExpressJS":[
+                        "REST API",
+                        "Websocket",
+                        "Authentication",
+                        "Authorization",
+                        "Mongoose"
+                    ],
+                    "UDatabase":[
+                        "ERD",
+                        "MySQL/MongoDB"
+                    ],
+                    "Front":[
+                        "HTML/CSS",
+                        "jQuery/Ajax",
+                        "TailwindCSS",
+                        "Bootstrap"
+                    ],                    
+                    "Concepts":[
+                        "Git",
+                        "NPM",
+                        "RESTful",
+                        "Design Patterns"
+                    ],
+                    "Side Skills":[
+                        "Typing",
+                        "Searching"
+                    ]
+                }                                                             
+            ]
+        },
+        {
+            "id":6,
+            "name":"UI/UX",
+            "category":"Others",
+            "imgSrc":"https://directus.maktabsharif.com/assets/54949204-5179-43c4-91f9-7f209a6c72ef",
+            "imgHero":"https://directus.maktabsharif.com/assets/d43f3791-16fe-4462-9c7a-d8816c1c2ade",
+            "description":"With a little search and a simple thumb count, we realize that despite all these applications and websites and the development of technology, the need for which is increasing day by day, the world needs a professional user interface designer! If learning this lucrative skill is your favorite path, learn a profession with us and get hired!",
+            "Weeks":20,
+            "Hours":300,
+            "syllabus": [
+                {
+                    "User Interface":[
+                        "Design Systems",
+                        "Interactions",
+                        "Design Tools (figma)",
+                        "Design Guidelines",
+                        "Mobile Design",
+                        "Design Handoff"
+                    ],
+                    "User Experience":[
+                        "Design Thinking",
+                        "Prototype",
+                        "Discover",
+                        "Interaction Design",
+                        "Visual Design",
+                        "User Story",
+                        "Test and Iterate",
+                        "Evaluting",
+                        "usability testing",
+                        "user center designing"
+                    ],
+                    "Web Design":[
+                        "HTML/CSS",
+                        "Adaptive & Responsive Layout",
+                        "Component Library",
+                        "webflow"
+                    ],                    
+                    "Product Thinking":[
+                        "Design Research",
+                        "Product Thinking",
+                        "define metrics"
+                    ],
+                    "Communication":[
+                        "Soft Skills",
+                        "Methodologies",
+                        "Project Planning",
+                        "Design Portfolio",
+                        "Interview Skills",
+                        "Collaborating with Stakeholders"
+                    ]
+                }                                                             
+            ]
+        },
+        {
+            "id":7,
+            "name":"C# / Asp.net",
+            "category":"Desktop",
+            "imgSrc":"https://directus.maktabsharif.com/assets/02953f93-6711-4c78-9b7f-bfadca50ea49",
+            "imgHero":"https://directus.maktabsharif.com/assets/997322c1-339c-434f-8364-0d3f72575220",
+            "description":"The best choice for a suitable career path and investment in a language whose job market is hot in every season. #C always has its fans!",
+            "Weeks":28,
+            "Hours":400,
+            "syllabus": [
+                {
+                    "C#":[
+                        "Data types",
+                        "Generic",
+                        "Exception Handling",
+                        "Lambda Expression",
+                        "Operator Oveloading",
+                        "Extension Method",
+                        "Events/Delegate",
+                        ".NET",
+                        "CLR",
+                        "Garbage",
+                        "Collector",
+                        "Regex"
+                    ],
+                    "ASP.NET Core":[
+                        "Logging",
+                        "DI",
+                        "State Management",
+                        "Middle-wares",
+                        "MVC",
+                        "Razor",
+                        "Filter-Actions",
+                        "Model Binder",
+                        "AAA/ASP.NET Identity Core",
+                        "Deployment"
+                    ],
+                    "UDatabase":[
+                        "SQLServer",
+                        "ADO.NET",
+                        "EFCore/LINQ",
+                        "Dapper",
+                        "NoSQL Basics"
+                    ],
+                    "Front":[
+                        "HTML/CSS",
+                        "jQuery/Ajax",
+                        "Bootstrap"
+                    ],                    
+                    "Concepts":[
+                        "Git",
+                        "Design Patterns"
+                    ],
+                    "Side Skills":[
+                        "Typing",
+                        "Searching"
+                    ]
+                }                                                             
+            ]
+        },
+        {
+            "id":8,
+            "name":"Data Analysis",
+            "category":"Others",
+            "imgSrc":"https://directus.maktabsharif.com/assets/2050cd6d-39fe-4f9b-886f-6ab42fdf6566",
+            "imgHero":"https://directus.maktabsharif.com/assets/3bb0d1e5-b5a2-4114-985e-707b5b758117",
+            "description":"Develop Python code for cleaning and preparing data for analysis - including handling missing values, formatting, normalizing, and binning data",
+            "Weeks":24,
+            "Hours":360,
+            "syllabus": [
+                {
+                    "MS SQL Server":[
+                        "Intro",
+                        "ERD",
+                        "SQL Basic",
+                        "SQL Advanced",
+                        "Advance(View,Index,Procedure,...)",
+                        "TSQL",
+                        "SSIS (ETL)",
+                        "SSAS (CUBE)",
+                        "SSRS"
+                    ],
+                    "Power BI":[
+                        "Intro",
+                        "Basics",
+                        "Power Query",
+                        "Visualization",
+                        "Data modeling",
+                        "DAX,MDX",
+                        "Pivot",
+                        "Dashboard"
+                    ],
+                    "Python":[
+                        "Basics",
+                        "Data Structure",
+                        "Pandas",
+                        "NumPy",
+                        "Mathplolib"
+                    ],
+                    "Others":[
+                        "Problem-Solving",
+                        "Statics",
+                        "KPI,Business Insight",
+                        "OthersSQLs",
+                        "Other tools(Tableau)"
+                    ],                    
+                    "Concepts":[
+                        "Git",
+                        "Design Patterns"
+                    ],
+                    "Side Skills":[
+                        "Typing",
+                        "Searching"
+                    ]
+                }                                                             
+            ]
+        },
+        {
+            "id":9,
+            "name":"JAVA",
+            "category":"Desktop",
+            "imgSrc":"https://directus.maktabsharif.com/assets/ed4f41bb-31ad-4a4b-9976-105eaf673ffd",
+            "imgHero":"https://directus.maktabsharif.com/assets/9100f2f6-3123-4a41-8f38-f33cbce17ea0",
+            "description":"To experience a fast, reliable and safe language for programming; Java can be your best choice. Write once, run everywhere with Java!",
+            "Weeks":28,
+            "Hours":400,
+            "syllabus": [
+                {
+                    "Java":[
+                        "Expressions",
+                        "Statements",
+                        "OOP",
+                        "Inheritance",
+                        "Encapsulation",
+                        "Polymorphism",
+                        "Collections",
+                        "Exception Handling",
+                        "I/O",
+                        "Multi-thread",
+                        "Lambda Expression",
+                        "Unit Testing"
+                    ],
+                    "Spring":[
+                        "Servlet/JSP",
+                        "Spring Core",
+                        "Spring MVC",
+                        "Spring REST",
+                        "Spring Boot"
+                    ],
+                    "Database":[
+                        "ERD",
+                        "SQL",
+                        "PostgresSQL"
+                    ],
+                    "Network":[
+                        "HTTP",
+                        "REST API"
+                    ],
+                    "Front":[
+                        "HTML/CSS",
+                        "jQuery/Ajax",
+                        "TailwindCSS",
+                        "Bootstrap"
+                    ],                    
+                    "Concepts":[
+                        "Git",
+                        "Design Patterns",
+                        "Maven",
+                        "UML"
+                    ],
+                    "Side Skills":[
+                        "Typing",
+                        "Searching"
+                    ]
+                }                                                             
+            ]
+        }             
     ]
 }
