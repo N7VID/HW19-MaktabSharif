@@ -1,3 +1,5 @@
+import Contact from "../../components/Contact/Contact";
+
 export default function ContactPage() {
   return (
     <div className="pt-[100px] flex justify-center items-center bg-mainBg min-h-screen cursor-default">
@@ -11,7 +13,11 @@ export default function ContactPage() {
           that we had for the honor and motivation of these people's success,
           and we step into the future days with a world of bigger dreams.
         </p>
-        <div>{/* <Button variant={"secondary"}>View More</Button> */}</div>
+        <div className="flex flex-col gap-2">
+          <Contact title={"Phone number"} value={"91077225-021"} />
+          <Contact title={"Email"} value={"Pr@maktabsharif.ir"} />
+          <Contact title={"Postal code"} value={"1459965139"} />
+        </div>
       </div>
       <div className="w-[720px]">
         <img src="/hero-contact.webp" alt="hero aboutPage" className="w-full" />

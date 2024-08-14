@@ -4,8 +4,7 @@ import { useGetBootCamps } from "../../hooks/useGetBootCamps";
 import CardManagement from "../../components/Management/CardManagement";
 import CardSkeleton from "../../skeletons/CardSkeleton";
 export default function BootCampsPage() {
-  const { data, isError, Error, isLoading } = useGetBootCamps();
-  // const { itemsPerPage, totalItems } = paginationVariables;
+  const { data, isLoading } = useGetBootCamps();
   const itemsPerPage = 3;
   const totalItems = data?.totalItems;
 
