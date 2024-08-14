@@ -5,11 +5,12 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import { useParams } from "react-router-dom";
 import Button from "../../components/Button/Button";
 import { useGetSingleBootCamp } from "../../hooks/useGetSingleBootCamp";
+import SinglePageSkeleton from "../../skeletons/singlePageSkeleton";
 
 let keys, values;
 export default function SinglePage() {
   const { id } = useParams();
-  const { data, isLoading } = useGetSingleBootCamp(id);
+  const { data, isFetchedAfterMount } = useGetSingleBootCamp(id);
   if (data) {
     keys = Object.keys(data?.syllabus?.[0]);
     values = Object.values(data?.syllabus?.[0]);
@@ -17,8 +18,8 @@ export default function SinglePage() {
 
   return (
     <div>
-      {isLoading ? (
-        <p>LOADING</p>
+      {!isFetchedAfterMount ? (
+        <SinglePageSkeleton />
       ) : (
         <>
           <section className="flex justify-between pt-[100px] bg-mainBg">
